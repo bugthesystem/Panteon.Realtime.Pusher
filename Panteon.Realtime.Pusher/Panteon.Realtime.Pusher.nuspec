@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Panteon.Realtime.Pusher</id>
+    <version>1.0.0</version>
+    <title>Panteon.Realtime.Pusher</title>
+    <authors>Ziya SARIKAYA</authors>
+    <owners>ziyasal</owners>
+    <licenseUrl>https://github.com/PanteonProject/Panteon.Realtime.Pusher/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PanteonProject/Panteon.Realtime.Pusher/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Adds real-time functionalities to tasks and dashboard using Pusher
+    </description>
+    <summary> Adds real-time functionalities to tasks and dashboard using Pusher </summary>
+    <tags>panteon task job scheduler host real-time pusher</tags>
+    <copyright />
+
+    <dependencies>
+      <dependency id="Panteon.Sdk" version="1.0.1" />
+      <dependency id="PusherServer" version="2.1.1.0"/>
+    </dependencies>
+
+  </metadata>
+
+  <files>
+    <file src="bin\Release\Panteon.Realtime.Pusher.dll" target="lib\net451\Panteon.Realtime.Pusher.dll" />
+  </files>
+</package>
