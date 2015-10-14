@@ -8,9 +8,8 @@ namespace Panteon.Realtime.Pusher
     {
         private readonly IPusher _pusher;
 
-        //TODO: DI & config
         public PubSubClient()
-            : this(new PusherServer.Pusher("136366", "629772c3ccd3b206462f", "e8b85c485017aa886979"))
+            : this(new PusherServer.Pusher(Config.PS_APP_ID, Config.PS_APP_KEY, Config.PS_APP_SECRET))
         {
 
         }
